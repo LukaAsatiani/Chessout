@@ -61,3 +61,51 @@ img {
     -o-user-select: none;
     user-select: none !important;
 }
+
+
+.piece_svg {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+
+.p_p {
+    background-image: url("/pieces/set1/bP.svg");
+}
+
+.p_P {
+    background-image: url("/pieces/set1/wP.svg")
+}
+.p_b{
+    background-image: url("/pieces/set1/bB.svg")
+}
+.p_B {
+    background-image: url("/pieces/set1/wB.svg")
+}
+.p_n {
+    background-image: url("/pieces/set1/bN.svg")
+}
+.p_N {
+    background-image: url("/pieces/set1/wN.svg")
+}
+.p_r {
+    background-image: url("/pieces/set1/bR.svg")
+}
+.p_R {
+    background-image: url("/pieces/set1/wR.svg")
+}
+.p_q{
+    background-image: url("/pieces/set1/bQ.svg")
+}
+.p_Q {
+    background-image: url("/pieces/set1/wQ.svg")
+}
+.p_k {
+    background-image: url("/pieces/set1/bK.svg")
+}
+.p_K {
+    background-image: url("/pieces/set1/wK.svg")
+}

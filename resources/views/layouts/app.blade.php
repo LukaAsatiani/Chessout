@@ -13,10 +13,9 @@
 </head>
 <body>
     <div id="app" class="vh-100">   
-        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <div class="cover-container d-flex h-100 mx-auto flex-column">
             <v-header></v-header>
-            <main role="main" class="inner cover h-100 py-4 bg-dark">
-                <!-- <main-panel-component></main-panel-component> -->
+            <main role="main" class="inner cover h-100 py-5 bg-dark">
                 <router-view></router-view>
             </main>
         </div>

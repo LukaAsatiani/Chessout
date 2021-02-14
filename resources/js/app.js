@@ -8,9 +8,10 @@ Vue.component('v-header', require('./components/Header.vue').default);
 Vue.component('v-tool-panel', require('./components/ToolPanelComponent.vue').default)
 
 import router from './router'
+import store from './store'
 
 const app = new Vue({
     el: '#app',
     router,
-    
+    store    
 });
